@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <title>Minseo's Webpage</title>
+  <h1 style="color:skyblue"><a href="index.html" class="saw2">민서의 테스트 웹페이지</a></h1>
+  <meta charset="utf-8">
+  <script src = 'color.js'></script>
+  <h2>  <input type="button" value="Night" onclick="
+    NDchange(this);
+    ">
+    My blog</h2>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="grid">
+    <ol>
+        <li><a href="1.html" class="active" id="active">January</a></li>
+        <li><a href="2.html" >February</a></li>
+        <li><a href="3.html" >March</a></li>
+        <li><a href="4.html" >April</a></li>
+        <li><a href="ch.html">August</a></li>
+    </ol>
+    <div>
+      <h3>Diary of January</h3>
+      내가 어제 본 The Good Place의 주연들이다.
+      <script>
+      var casts = ["Kristen Bell", "Ted Danson", "Jameela Jamil", "Manny Jacinto", "William Jackson Harper", "d'Arcy Carden"];
+      var i = 0;
+
+      while ( i < casts.length ) {
+        document.write('<li>'+casts[i]+'</li>')
+        i++
+      }
+      </script>
+      <br> 특별출연: Dax Shepard </br>
+    </div>
+</body>
+</html>
